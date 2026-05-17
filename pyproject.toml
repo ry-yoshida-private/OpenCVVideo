@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opencv-video"
+version = "0.0.1"
+authors = [
+  { name="Ryuto Yoshida"},
+]
+description = "OpenCV-based video reading and writing utilities."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+]
+dependencies = [
+    "opencv-contrib-python",
+    "id-manager @ git+https://github.com/ry-yoshida-private/IDManager.git",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ry-yoshida-private/OpenCVVideo"
+"Bug Tracker" = "https://github.com/ry-yoshida-private/OpenCVVideo/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+opencv_video = ["py.typed"]
