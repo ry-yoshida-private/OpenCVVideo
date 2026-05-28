@@ -19,12 +19,12 @@ classifiers = [
 ]
 dependencies = [
     "opencv-contrib-python",
-    "id-manager @ git+https://github.com/ry-yoshida-private/IDManager.git",
+    "id-manager @ git+https://github.com/ry-yoshida-dev/IDManager.git",
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/ry-yoshida-private/OpenCVVideo"
-"Bug Tracker" = "https://github.com/ry-yoshida-private/OpenCVVideo/issues"
+"Homepage" = "https://github.com/ry-yoshida-dev/OpenCVVideo"
+"Bug Tracker" = "https://github.com/ry-yoshida-dev/OpenCVVideo/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

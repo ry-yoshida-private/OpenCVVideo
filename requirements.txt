@@ -1,2 +1,2 @@
 opencv-contrib-python
-id-manager @ git+https://github.com/ry-yoshida-private/IDManager.git
+id-manager @ git+https://github.com/ry-yoshida-dev/IDManager.git
